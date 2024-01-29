@@ -1,3 +1,6 @@
+* {
+    font-size: large;
+}
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -9,8 +12,12 @@
 
 .navbar .logo-right {
     margin-right: auto;
+    background: none;
+        border: none;
 }
 
 .navbar .cart-left {
+    background: none;
+        border: none;
     margin-left: auto;
 }
