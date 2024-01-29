@@ -1,0 +1,16 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    background-color: #9f9f9f;
+    padding: 0 20px;
+}
+
+.navbar .logo-right {
+    margin-right: auto;
+}
+
+.navbar .cart-left {
+    margin-left: auto;
+}

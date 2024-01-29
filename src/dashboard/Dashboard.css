@@ -1,0 +1,34 @@
+.comp {
+    display: flexbox;
+    float: left;
+    border-radius: 20px;
+    align-content: space-between;
+    margin: 5vh;
+    background-color: none;
+    box-shadow: gray 5px 5px 2px 2px;
+}
+
+.name {
+    font-size: 20px;
+    margin: 5px;
+    height: 5vh;
+    border-radius: 0 0 20px 20px;
+    width: 100%;
+
+}
+
+img {
+    width: 35vh;
+}
+
+.menu {
+    align-items: center;
+}
+
+.pic :hover {
+    transform: scale(1.05);
+}
+
+.comp:active {
+    transform: translateY(-5px);
+}
